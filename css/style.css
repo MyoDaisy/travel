@@ -508,12 +508,21 @@ a.gal:hover img {
 	color: #000;
 }
 
+.recommendation-form{
+	margin-top: 80px;
+}
+
+.recommendation-form h4{
+	padding-top: 0px !important;
+	color: #FF0000 !important;
+}
+
 #tabs ul li {
 	border-radius: 3px 3px 0 0;
 	float: left;
 	position: relative;
 	background-color: #fcfafa;
-	min-width: 181px;
+	width: 150px;
 	text-align: center;
 	border-top: 1px solid #dedbdb;
 	border-right: 1px solid #dedbdb;
@@ -864,6 +873,24 @@ blockquote p {
 	margin-bottom: 8px;
 }
 
+#form-search .jqTransformSelectWrapper {
+	margin-bottom: 27px;
+}
+
+#form-search a.btn {
+	margin-top: 0px !important;
+}
+
+#form-search  span {
+	margin-bottom: 8px;
+}
+
+#form-search ul li{
+	width: 100% !important;
+	font-size: 100% !important;
+	color: #000000;
+}
+
 .form1 span.col1 {
 	display: inline-block;
 	margin-bottom: 2px !important;
@@ -936,13 +963,13 @@ ul.list2.l1 {
 /****Map***/
 
 .map {
-	padding-top: 0px;
+	padding-top: 80px;
 	margin-top: -2px;
 }
 
 .map figure {
 
-	width: 550px;
+	width: 700px;
 		 -moz-box-sizing: border-box;
  -webkit-box-sizing: border-box;
  -o-box-sizing: border-box;
@@ -953,7 +980,7 @@ padding-top: 2px;
 
 }
 .map figure iframe {
-	width: 550px;
+	width: 700px;
 	height: 414px;
 	max-width: 100%;
 }
